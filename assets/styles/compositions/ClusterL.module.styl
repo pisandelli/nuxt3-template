@@ -1,0 +1,21 @@
+.cluster-l
+  display: flex
+  flex-wrap: wrap
+  gap: var(--gap, 1.5rem)
+  justify-content: flex-start
+  align-items: center
+
+  &[center]
+    justify-content: center
+
+  &[end]
+    justify-content: flex-end
+
+  &[between]
+    justify-content: space-between
+
+  &[around]
+    justify-content: space-around
+
+  &[narrow]
+    gap: var(--s0, 1rem)

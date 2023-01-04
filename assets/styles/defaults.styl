@@ -1,0 +1,51 @@
+:root
+  --animation-speed: 0.5s
+  --border-radius: 0.5rem
+  --ratio: 1.5
+  --max-width: 65ch
+  --gap: 1.5rem
+
+  --font-plain: 'Open Sans', sans-serif
+
+  --font-size-tiny: 0.75rem
+  --font-size-small: 0.875rem
+  --font-size-base: 1rem
+  --font-size-big: 1.4rem
+  --font-size-bigger: 1.75rem
+  --font-size-huge: 2rem
+
+  --weight-light: 300
+  --weight-regular: 400
+  --weight-medium: 600
+  --weight-bold: 700
+
+  /* MODULAR SCALE */
+  --s-1: calc(var(--s0) / var(--ratio))
+  --s0: 1rem
+  --s1: calc(var(--s0) * var(--ratio))
+  --s2: calc(var(--s1) * var(--ratio))
+  --s3: calc(var(--s2) * var(--ratio))
+
+  --stack-300: 0
+  --stack-400: 10
+  --stack-500: 20
+  --stack-600: 30
+  --stack-700: 40
+
+  --border-thin: 0.0625rem
+  --border-medium: calc(var(--border-thin) * calc(var(--ratio) * 2))
+  --border-thick: calc(var(--border-medium) * calc(var(--ratio) * 2.5))
+
+  --color-danger: #FF3B30
+  --color-default: #595959
+  --color-grey-dark: #8C8C8C
+  --color-grey-light: #f0f0f0
+  --color-neutral: #fbfbfb
+  --color-primary: #597EF7
+  --color-secondary: #F7BD37
+  --color-success: #34C759
+  --color-warning: #FA8C16
+
+  font-family: var(--font-plain)
+  line-height: var(--ratio)
+  color: var(--color-default)

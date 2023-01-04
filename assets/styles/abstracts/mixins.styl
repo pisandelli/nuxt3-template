@@ -1,0 +1,19 @@
+// Create a perfect Square
+_square(val)
+  inline-size: val
+  aspect-ratio: 1 / 1
+
+//Add a box shadow to the element
+_box-shadow($a = 1)
+  box-shadow: 0 3px ($a * 1px) ($a * -2px) rgba(0,0,0, .2), 0 2px ($a * 2px) 0 rgba(0,0,0, .14), 0 1px ($a * 5px) 0 rgba(0,0,0, .12)
+
+//Apply CSS transition animation
+_transition()
+  transition: arguments
+  transition-timing-function: cubic-bezier(.7, 0, .3, 1)
+
+//Apply translate3d
+_translate()
+  transform: translate3d(arguments)
+  transition: transform var(--animation-speed, .5s)
+  transition-timing-function: cubic-bezier(.7, 0, .3, 1)
