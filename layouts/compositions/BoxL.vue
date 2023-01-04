@@ -1,9 +1,9 @@
 <script lang="ts">
 /**
-   * A simple box component
-   * @name 'BoxL'
-   * @version 1.0.0
-   */
+ * A simple box component
+ * @name 'BoxL'
+ * @version 1.0.0
+ */
 
 import { defineComponent, h } from 'vue'
 import Styles from '@/assets/styles/compositions/BoxL.module.styl'
