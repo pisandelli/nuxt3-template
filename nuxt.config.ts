@@ -76,6 +76,8 @@ export default defineNuxtConfig({
     // Add custom options for HTML-Validator
     // https://html-validator.nuxtjs.org/#configuration-optional
     // https://html-validate.org/rules/index.html
+    usePrettier: true,
+    logLevel: 'warning',
     options: {
       rules: {
         'no-dup-class': 'off' // Avoid error for classes using [ ] notation
