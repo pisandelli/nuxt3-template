@@ -19,6 +19,9 @@ export default defineNuxtConfig({
     images: fileURLToPath(new URL('./assets/images', import.meta.url)),
     styles: fileURLToPath(new URL('./assets/styles', import.meta.url))
   },
+
+  // Enabled Take Over Mode or installed the TypeScript Vue Plugin (Volar)
+  // https://nuxt.com/docs/getting-started/installation#prerequisites
   typescript: {
     shim: false
   },
@@ -40,80 +43,69 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@nuxtjs/i18n',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/html-validator',
-    '@nuxtjs/robots',
-    '@nuxt/image-edge',
-    '@vueuse/nuxt',
-    '@nuxtjs/color-mode',
-    'nuxt-purgecss',
-    '@nuxtjs/web-vitals',
-    'nuxt-icon',
-    '@morev/vue-transitions/nuxt',
-    '@pinia/nuxt'
-  ],
-  i18n: {
-    // Add options for i18n here
-    // https://i18n.nuxtjs.org/options-reference
-    locales: [
-      { code: 'en', file: 'en-us.json' },
-      { code: 'pt-br', file: 'pt-br.json' }
-    ],
-    lazy: true,
-    langDir: 'locales',
-    strategy: 'prefix_except_default',
-    defaultLocale: 'pt-br'
-  },
-  googleFonts: {
-    // Add options for Google Fonts
-    // https://google-fonts.nuxtjs.org/options
-    families: {
-      'Open+Sans': [300, 400, 600, 700]
-    }
-  },
-  htmlValidator: {
-    // Add custom options for HTML-Validator
-    // https://html-validator.nuxtjs.org/#configuration-optional
-    // https://html-validate.org/rules/index.html
-    usePrettier: true,
-    logLevel: 'warning',
-    options: {
-      rules: {
-        'no-dup-class': 'off' // Avoid error for classes using [ ] notation
+    ['@nuxtjs/i18n', {
+      // Add options for i18n here
+      // https://i18n.nuxtjs.org/options-reference
+      locales: [
+        { code: 'en', file: 'en-us.json' },
+        { code: 'pt-br', file: 'pt-br.json' }
+      ],
+      lazy: true,
+      langDir: 'locales',
+      strategy: 'prefix_except_default',
+      defaultLocale: 'pt-br'
+    }],
+    ['@nuxtjs/google-fonts', {
+      // Add options for Google Fonts
+      // https://google-fonts.nuxtjs.org/options
+      families: {
+        'Open+Sans': [300, 400, 600, 700]
       }
-    }
-  },
-  robots: {
-    // add robots config here
-    // https://github.com/nuxt-community/robots-module#robots-config
-  },
-  image: {
-    // add nuxt-image config here
-    // https://v1.image.nuxtjs.org/configuration
-  },
-  vueUse: {
-    // No options, but see the section Caveats for further info
-    // https://www.npmjs.com/package/@vueuse/nuxt}
-  },
-  colorMode: {
-    // Control the site color Mode
-    // https://color-mode.nuxtjs.org/
-  },
-  purgecss: {
-    // Add purgecss options
-    // https://purgecss.com/guides/nuxt.html#options
-  },
-  webVitals: {
-    // Add custom config
-    // https://github.com/nuxt-modules/web-vitals#options
-  },
-  nuxtIcon: {
-    // Add custom options for NuxtIcon
-    // https://github.com/nuxt-modules/icon
-  },
-  vueTransitions: {
-    // Add custom options for vueTransitions
-    // https://github.com/MorevM/vue-transitions#usage-with-nuxt
-  }
+    }],
+    ['@nuxtjs/html-validator', {
+      // Add custom options for HTML-Validator
+      // https://html-validator.nuxtjs.org/#configuration-optional
+      // https://html-validate.org/rules/index.html
+      usePrettier: true,
+      logLevel: 'warning',
+      options: {
+        rules: {
+          'no-dup-class': 'off' // Avoid error for classes using [ ] notation
+        }
+      }
+    }],
+    ['@nuxtjs/robots', {
+      // add robots config here
+      // https://github.com/nuxt-community/robots-module#robots-config
+    }],
+    ['@nuxt/image-edge', {
+      // add nuxt-image config here
+      // https://v1.image.nuxtjs.org/configuration
+    }],
+    ['@vueuse/nuxt', {
+      // No options, but see the section Caveats for further info
+      // https://www.npmjs.com/package/@vueuse/nuxt}
+    }],
+    ['@nuxtjs/color-mode', {
+      // Control the site color Mode
+      // https://color-mode.nuxtjs.org/
+    }],
+    ['nuxt-purgecss', {
+      // Add purgecss options
+      // https://purgecss.com/guides/nuxt.html#options
+    }],
+    ['@nuxtjs/web-vitals', {
+      // Add custom config
+      // https://github.com/nuxt-modules/web-vitals#options
+    }],
+    ['nuxt-icon', {
+      // Add custom options for NuxtIcon
+      // https://github.com/nuxt-modules/icon
+    }],
+    ['@morev/vue-transitions/nuxt', {
+      // Add custom options for vueTransitions
+      // https://github.com/MorevM/vue-transitions#usage-with-nuxt
+    }],
+    '@pinia/nuxt'
+  ]
 })

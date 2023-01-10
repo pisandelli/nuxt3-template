@@ -7,7 +7,7 @@
 </script>
 
 <template lang="pug">
-h1(class='[ example ] [ border:thick ]') {{ $t('welcome') }}
+h1(class="[ example ] [ border:thick ]") {{ $t('welcome') }}
 </template>
 
 <style lang="stylus" scoped>
