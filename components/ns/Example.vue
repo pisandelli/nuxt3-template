@@ -1,6 +1,4 @@
 <script lang='ts' setup>
-import { normalizeViteManifest } from 'vue-bundle-renderer'
-
 /**
 * Example Component.
 * @name 'NsExample'
