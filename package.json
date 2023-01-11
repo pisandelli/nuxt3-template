@@ -15,9 +15,9 @@
     }
   },
   "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.8.1",
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "@nuxtjs/i18n": "^8.0.0-beta.7",
     "@volar/vue-language-plugin-pug": "^1.0.24",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.31.0",
@@ -25,7 +25,8 @@
     "nuxt": "3.0.0",
     "pug": "^3.0.2",
     "stylus": "^0.59.0",
-    "vitest": "^0.26.3"
+    "vitest": "^0.26.3",
+    "vue-i18n": "9"
   },
   "dependencies": {
     "@morev/vue-transitions": "^2.3.5",
