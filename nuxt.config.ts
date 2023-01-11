@@ -1,4 +1,6 @@
 import { fileURLToPath } from 'node:url'
+import { resolve, dirname } from 'node:path'
+import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineNuxtConfig({
   app: {
@@ -40,21 +42,19 @@ export default defineNuxtConfig({
           ]
         }
       }
-    }
+    },
+    /**
+     * @see https://vue-i18n.intlify.dev/guide/integrations/nuxt3.html
+     * */
+    plugins: [
+      VueI18nVitePlugin({
+        include: [
+          resolve(dirname(fileURLToPath(import.meta.url)), './locales/*.json')
+        ]
+      })
+    ]
   },
   modules: [
-    ['@nuxtjs/i18n', {
-      // Add options for i18n here
-      // https://i18n.nuxtjs.org/options-reference
-      locales: [
-        { code: 'en', file: 'en-us.json' },
-        { code: 'pt-br', file: 'pt-br.json' }
-      ],
-      lazy: true,
-      langDir: 'locales',
-      strategy: 'prefix_except_default',
-      defaultLocale: 'pt-br'
-    }],
     ['@nuxtjs/google-fonts', {
       // Add options for Google Fonts
       // https://google-fonts.nuxtjs.org/options
