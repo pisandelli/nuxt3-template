@@ -11,10 +11,16 @@ export default defineNuxtConfig({
       title: 'Nuxt 3 Scaffolding'
     }
   },
+  // Read more about Nuxt Layers
+  // https://nuxt.com/docs/getting-started/layers
+  extends: [
+    // Layout compositions for Nuxt
+    // https://github.com/pisandelli/nuxt-layout-compositions
+    'nuxt-layout-compositions'
+  ],
   components: {
     dirs: [
-      '~/components',
-      { path: '~/layouts/compositions', pathPrefix: false }
+      '~/components'
     ]
   },
   alias: {
