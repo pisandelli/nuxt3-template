@@ -6292,6 +6292,13 @@ nuxt-icon@^0.3.3:
     "@nuxt/kit" "^3.3.1"
     nuxt-config-schema "^0.4.5"
 
+nuxt-layout-compositions@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/nuxt-layout-compositions/-/nuxt-layout-compositions-1.0.0.tgz#52933827a95bd7c886345dc033df5bdea127c80c"
+  integrity sha512-TpyIQf4iv6OK75N7iVwl9hJCyRROJSBn/0h+XFlfdEtTrY8NVeMPvYhu4/PmKJtMlCUIaRnHdkQYxqKxr5ItNg==
+  dependencies:
+    stylus "^0.59.0"
+
 nuxt-purgecss@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/nuxt-purgecss/-/nuxt-purgecss-2.0.0.tgz#2cc0f6fd0f3211e2847e326cda27b561df26d3e1"
