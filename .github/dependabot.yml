@@ -1,0 +1,13 @@
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "yarn"
+      - "dependencies"
+    reviewers:
+      - "pisandelli"
+    versioning-strategy: increase
