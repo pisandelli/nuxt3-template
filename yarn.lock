@@ -6350,10 +6350,10 @@ nuxt-icon@^0.3.3:
     "@nuxt/kit" "^3.3.1"
     nuxt-config-schema "^0.4.5"
 
-nuxt-layout-compositions@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/nuxt-layout-compositions/-/nuxt-layout-compositions-1.1.0.tgz#d3ced5fa45c8cae8d3461a64d681abe7ba04b02d"
-  integrity sha512-CIAh99P+j1oiV/bWZL6eco+A492snyAj9VqY/WukI18F1ARLtFPErCMuNuH8HH85vEKhvNA4Ibivdc0H0GxIpQ==
+nuxt-layout-compositions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/nuxt-layout-compositions/-/nuxt-layout-compositions-1.1.1.tgz#1046d5ad1f833ac94f22dee002c89a4d1dcb9915"
+  integrity sha512-fr2cNf60P8T+c9Kf5NRN4GNqmBGUUkTEASt5HA3brj0AFclsO0yjCWWt1YUkPawAArzPnjWdnfQYVA7XFx+tWg==
   dependencies:
     stylus "^0.59.0"
 
