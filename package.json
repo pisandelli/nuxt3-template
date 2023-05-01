@@ -36,7 +36,7 @@
     "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/html-validator": "^1.2.5",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxtjs/web-vitals": "^0.2.4",
+    "@nuxtjs/web-vitals": "^0.2.5",
     "@pinia/nuxt": "^0.4.9",
     "@unlighthouse/nuxt": "^0.4.10",
     "@vueuse/nuxt": "^10.1.0",
