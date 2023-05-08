@@ -1983,10 +1983,10 @@
   dependencies:
     muggle-string "^0.2.2"
 
-"@volar/vue-language-plugin-pug@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@volar/vue-language-plugin-pug/-/vue-language-plugin-pug-1.6.1.tgz#bc2cf8df6dd7ac0753b8e8b75858b7a3105d5707"
-  integrity sha512-sWYj04ukFBiOaAu4fmGDxnVm/fODSJ2hQtEB0GTAUHGjz9EzaaBjV1gWd8sX6KnerWx6MxYQiy0LIK7z++3h2w==
+"@volar/vue-language-plugin-pug@^1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@volar/vue-language-plugin-pug/-/vue-language-plugin-pug-1.6.4.tgz#9248c4707b8b0edc9df12f49dddc01ec12288902"
+  integrity sha512-4OxKJuxlKvQNb+q5ubA8ArT+K+ZUBKg+YgxzFDIBI34mEH2l9u45IbrpYelspenKAdFRF3S1yVpS43ZjVVJ3tQ==
   dependencies:
     "@volar-plugins/pug" "2.0.0"
     "@volar/language-service" "1.4.1"
