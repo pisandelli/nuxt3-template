@@ -1704,10 +1704,10 @@
     hookable "^5.5.3"
     unhead "1.1.26"
 
-"@unlighthouse/client@0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/client/-/client-0.4.10.tgz#9a18ccd5628f741625bb4bc8c0d5b0d35bd0f53b"
-  integrity sha512-QKO+vYezeY/f7aHu4cWjHnB/VtExXpCA/N03o5WN+e+rnlCx+uZphbgFU8AwMH16eNJ80DWz/wtY5LsGlfds9w==
+"@unlighthouse/client@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/client/-/client-0.5.1.tgz#fd433e6548ed78a09ce7d15ad5a4f4443b721813"
+  integrity sha512-sx+A/tgg4aCznsRB188NSqO+LRqqxdzGjLDGN+J56ThNqpljVlSpLYUSEuE5HZI9lCza92Q3ivUKxFtyKaE3Ig==
   dependencies:
     "@headlessui/vue" "^1.7.7"
     defu "^6.1.1"
@@ -1717,13 +1717,13 @@
     vue "^3.2.45"
     vue-router "^4.1.6"
 
-"@unlighthouse/core@0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/core/-/core-0.4.10.tgz#ba1f28369e0f76d08c540be89f8d37c2b56e86a8"
-  integrity sha512-Ugtev1czNIiN20t0dGDcB956j3BsagghAEAfQVg4b/KUHM45Zc3jM/IxCJDLtzhnCWptb7H7rpyh8xzYHJ/Z+Q==
+"@unlighthouse/core@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/core/-/core-0.5.1.tgz#a35b25c5fab6222e79d80f9276f944d0f409e8f6"
+  integrity sha512-JIfJtOFah3GfgQoL/99lQQ4KuiTnnzT/GWAGXKzX85OGT6+dNzThFUHqpWoiB2ASsw1py1hMFOkhh+Jh/YfAKg==
   dependencies:
     "@types/wrap-ansi" "^8.0.1"
-    "@unlighthouse/client" "0.4.10"
+    "@unlighthouse/client" "0.5.1"
     "@unrouted/core" "0.5.0"
     "@unrouted/fetch" "0.5.0"
     "@unrouted/plugins" "0.5.0"
@@ -1759,42 +1759,42 @@
     wrap-ansi "^8.1.0"
     ws "^8.12.0"
 
-"@unlighthouse/nuxt@^0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/nuxt/-/nuxt-0.4.10.tgz#4d57d1b5940267ada7597be8da7c686a6a8ddfbd"
-  integrity sha512-F4N8nDU43K4a3XQzy1jKvYlR640x8r01YWad8tsgtaWvZikeTAeRIEqINfUDGO09uKNntNr5Lu8X1EUnET32FA==
+"@unlighthouse/nuxt@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/nuxt/-/nuxt-0.5.1.tgz#0336e91131809ebc2bac45a233172ed6b779fb25"
+  integrity sha512-/D4USmEzeqlk/M2dUudGPZyEJ4I7Lr1a/U7PCvmt3XSFQPtrSAuhGDD8jP+buSltrZIo1VRpqcLys+5A9bDD1w==
   dependencies:
     "@harlanzw/nuxt-kit-extras" "^0.3.1"
     "@nuxt/kit" "3.1.1"
-    "@unlighthouse/core" "0.4.10"
-    "@unlighthouse/server" "0.4.10"
-    "@unlighthouse/vite" "0.4.10"
-    "@unlighthouse/webpack" "0.4.10"
+    "@unlighthouse/core" "0.5.1"
+    "@unlighthouse/server" "0.5.1"
+    "@unlighthouse/vite" "0.5.1"
+    "@unlighthouse/webpack" "0.5.1"
 
-"@unlighthouse/server@0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/server/-/server-0.4.10.tgz#d4f79c40a2f422c379abc46c9f8eaa28e5fc1cda"
-  integrity sha512-XtzMkXOzVfOJ6+sgZgEy0jDggKQDSh5xQ0xkJUdQTCtwBzWLE4TviulvReGn6oqj3qkewJxWF4aIbOZOOAGTTw==
+"@unlighthouse/server@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/server/-/server-0.5.1.tgz#8a8d439101f3a1e0189bfa647fe8993ef1633c7c"
+  integrity sha512-c8mAwXpHw8CJFuKTiPkl/etOm0WC/ZUOTPSBOIsE3SCadGX7415TKLHkmQ0u0G5eorRhDJAhKnfB7L+24T1uuw==
   dependencies:
-    "@unlighthouse/core" "0.4.10"
+    "@unlighthouse/core" "0.5.1"
     h3 "^1.0.2"
     listhen "1.0.1"
 
-"@unlighthouse/vite@0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/vite/-/vite-0.4.10.tgz#98cef786e28b7ed710cf5c49063b57a901c4b690"
-  integrity sha512-0bnQOcHJvEpF1wRGCj0BGIFpbJsYdHI2xUojK4astPJHT2flMhVcpGLdyjmb58gLZPR83T5NvjGmapdfTSduzQ==
+"@unlighthouse/vite@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/vite/-/vite-0.5.1.tgz#4350481da168ee3613aca785d9d8e0ee8df890f3"
+  integrity sha512-/RNHXZWnEbAvLiG0j8Zl1OkZhi+cWLLQvQX2f9K9wmOIU5Dgmvy3eaAibEI2vGHtiTiym+375ThyFJ8j18X7oQ==
   dependencies:
-    "@unlighthouse/core" "0.4.10"
-    "@unlighthouse/server" "0.4.10"
+    "@unlighthouse/core" "0.5.1"
+    "@unlighthouse/server" "0.5.1"
 
-"@unlighthouse/webpack@0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@unlighthouse/webpack/-/webpack-0.4.10.tgz#94036720f2e2e50ba7abf818ef24ecc28ac6cfff"
-  integrity sha512-07NISqP9ZbK/4/3TBRf5qLAo9snFjOFWLUtl338avrvumso23KEhlvk1pF0KxUbU1YRn8GHZm4oMC8xeyc4Tjg==
+"@unlighthouse/webpack@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@unlighthouse/webpack/-/webpack-0.5.1.tgz#dcc91cf5c8a8e700f9ff8c8c308998a3cd084d5b"
+  integrity sha512-xKmP6xUf5mZwRXsNBTZfNbPQ0/PTGC+062oxhJI9KnJXBImYmXXb9/zoe8Q6PtCJa6fg1zCBzJF4pdoIAsu7gg==
   dependencies:
-    "@unlighthouse/core" "0.4.10"
-    "@unlighthouse/server" "0.4.10"
+    "@unlighthouse/core" "0.5.1"
+    "@unlighthouse/server" "0.5.1"
     defu "^6.1.2"
     lodash-es "^4.17.21"
     unplugin "^1.0.1"
