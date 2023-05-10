@@ -43,5 +43,8 @@
     "axios": "^1.4.0",
     "nuxt-icon": "^0.4.0",
     "nuxt-purgecss": "^2.0.0"
+  },
+  "resolutions": {
+    "consola": "^3.0.0"
   }
 }
