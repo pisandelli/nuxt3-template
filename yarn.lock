@@ -518,10 +518,10 @@
   resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.7.13.tgz#bf4c5e324c3a724f6f7911362e7f38989b754590"
   integrity sha512-obG5TdPdBDfs+jiA1mY29LPFqyJl93Q90EL86ontfRe1B6XvbjPkx+x1aAC5DA18bXbb0Juni1ayDbXo0w1u0A==
 
-"@html-validate/stylish@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@html-validate/stylish/-/stylish-3.0.1.tgz#9d0304c6fd91e4b19467b8b7d6f3f112fc7831ff"
-  integrity sha512-jQNDrSnWvJEPSlqC1tFqcbmVuJy2x61UwqFsXHxYT2sgCXFW4AVhsoIcHkECCmUHtQ8hpHU6yOBGA+rMLZhS7A==
+"@html-validate/stylish@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@html-validate/stylish/-/stylish-4.0.1.tgz#1717e93ec6e3f1acf9bd86e1bfaaeeef748d1d45"
+  integrity sha512-BBZuKxYAbf9yddzn5eboV3LR9tF0KAJACkxH9+g0C9mhxIInPHtLhsXdDMyhRBY49Ls9TLjAuPKbuSUgLjclBA==
   dependencies:
     kleur "^4.0.0"
 
@@ -822,7 +822,7 @@
     unimport "^2.0.1"
     untyped "^1.2.2"
 
-"@nuxt/kit@3.4.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.0.0-rc.11", "@nuxt/kit@^3.2.3", "@nuxt/kit@^3.3.3", "@nuxt/kit@^3.4.0", "@nuxt/kit@^3.4.2", "@nuxt/kit@^3.4.3":
+"@nuxt/kit@3.4.3":
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.4.3.tgz#2ab6efb0a4db7b4e5f4d8d7d7e696fa30a6e8771"
   integrity sha512-aQyzplYFCL292UsVZzlOZOC51ZKYFL0PBihbcPzxTzXQvAfMF8/DQ539kqzqXzxTCcmnUB9ROhIaNUrAeUkFYA==
@@ -844,6 +844,30 @@
     semver "^7.5.0"
     unctx "^2.3.0"
     unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.0.0-rc.11", "@nuxt/kit@^3.2.3", "@nuxt/kit@^3.3.3", "@nuxt/kit@^3.4.0", "@nuxt/kit@^3.4.2", "@nuxt/kit@^3.4.3", "@nuxt/kit@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.5.1.tgz#b51cb3f24e9067140b77eefa842c77b0c92b7e8a"
+  integrity sha512-hC0apW02dSujoBuGQCxd8rvUyKIyfcPueIlYbO4d1SMQUifd/Tz+pYsbmpXX+kD/yXJ2yUaChbJ1IBLl6kep5A==
+  dependencies:
+    "@nuxt/schema" "3.5.1"
+    c12 "^1.4.1"
+    consola "^3.1.0"
+    defu "^6.1.2"
+    globby "^13.1.4"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.18.2"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.2.1"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
+    scule "^1.0.0"
+    semver "^7.5.1"
+    unctx "^2.3.0"
+    unimport "^3.0.7"
     untyped "^1.3.2"
 
 "@nuxt/kit@npm:@nuxt/kit-edge@latest":
@@ -902,6 +926,21 @@
     std-env "^3.3.2"
     ufo "^1.1.1"
     unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/schema@3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.5.1.tgz#33ae4b8689633be4ed69c03226035848cdd2cf0a"
+  integrity sha512-+TcJRT/Xm8IxpOwUWu9/7yoepPinITuQ0mkn/CThMuTt7z7N2LseqXOwSvONkI3bX+36VHFD2FFB8b3ABmwW2A==
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.3"
+    ufo "^1.1.2"
+    unimport "^3.0.7"
     untyped "^1.3.2"
 
 "@nuxt/schema@npm:@nuxt/schema-edge@3.5.0-28062024.cbcd254c":
@@ -1034,14 +1073,14 @@
     google-fonts-helper "^3.2.4"
     pathe "^1.1.0"
 
-"@nuxtjs/html-validator@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/html-validator/-/html-validator-1.2.5.tgz#a03a615f60e3b5bbeaecc3bde098d2a27c93ac6a"
-  integrity sha512-SbzsfYEZvq+tMv2gcdk1OlwubOdU5SV4a0DdBPjqjW7Kuivd4A02z4eOzXhgpg3xIoLUVenf777l5m44/0qI/A==
+"@nuxtjs/html-validator@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/html-validator/-/html-validator-1.3.1.tgz#4c5f0c359d371451e30c428bb31668aebb4abaa1"
+  integrity sha512-tEshqXbwMNyihAqYTmOZTcp3pcgsqU3w5stIaxhDHtlViBl7pps6tVY2hloulFKLffF5vsyXXEMTXJfpgMyThg==
   dependencies:
-    "@nuxt/kit" "^3.2.3"
+    "@nuxt/kit" "^3.5.1"
     chalk "^5.1.2"
-    html-validate "~7.15.0"
+    html-validate "~7.17.0"
     pathe "^1.0.0"
     prettier "^2.7.1"
     std-env "^3.3.1"
@@ -4658,13 +4697,13 @@ html-tags@^3.1.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.3.1.tgz#a04026a18c882e4bba8a01a3d39cfe465d40b5ce"
   integrity sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==
 
-html-validate@~7.15.0:
-  version "7.15.3"
-  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-7.15.3.tgz#386b4034ac156089f1a4052a3fc2b6f804b0b9cf"
-  integrity sha512-T5neIjmY/CHwRz1wbktEZxpsfWyOgL0EBGdSKG+sDrytAAK2/CI8rbkcIsK5Llx+q86Q/yQSPk7KVT8cqDwsnA==
+html-validate@~7.17.0:
+  version "7.17.0"
+  resolved "https://registry.yarnpkg.com/html-validate/-/html-validate-7.17.0.tgz#22bfe735af77cd5f75399eac5686617aaeb1ca2f"
+  integrity sha512-9tv7wRo5td38Hjkg2LmKD5GhDVlQpwaMewZRblq2J7d2UR37ntcEAS5Hg1jI+Q0isPbkUYlaJK618c4N0DW3Xg==
   dependencies:
     "@babel/code-frame" "^7.10.0"
-    "@html-validate/stylish" "^3.0.0"
+    "@html-validate/stylish" "^4.0.1"
     "@sidvind/better-ajv-errors" "^2.0.0"
     acorn-walk "^8.0.0"
     ajv "^8.0.0"
@@ -5866,6 +5905,16 @@ mlly@^1.0.0, mlly@^1.1.0, mlly@^1.2.0:
     pathe "^1.1.0"
     pkg-types "^1.0.2"
     ufo "^1.1.1"
+
+mlly@^1.2.1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.3.0.tgz#3184cb80c6437bda861a9f452ae74e3434ed9cd1"
+  integrity sha512-HT5mcgIQKkOrZecOjOX3DJorTikWXwsBfpcr/MGBkhfWcjiqvnaL/9ppxvIUXfjT6xt4DVIAsN9fMUz1ev4bIw==
+  dependencies:
+    acorn "^8.8.2"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
+    ufo "^1.1.2"
 
 mri@^1.2.0:
   version "1.2.0"
@@ -7467,6 +7516,13 @@ semver@^7.0.0, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.6, semve
   dependencies:
     lru-cache "^6.0.0"
 
+semver@^7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
+  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
+  dependencies:
+    lru-cache "^6.0.0"
+
 send@0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/send/-/send-0.18.0.tgz#670167cc654b05f5aa4a767f9113bb371bc706be"
@@ -8318,6 +8374,23 @@ unimport@^3.0.6:
     mlly "^1.2.0"
     pathe "^1.1.0"
     pkg-types "^1.0.2"
+    scule "^1.0.0"
+    strip-literal "^1.0.1"
+    unplugin "^1.3.1"
+
+unimport@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-3.0.7.tgz#9453fc2a0b816240490d2829279547754c7ea147"
+  integrity sha512-2dVQUxJEGcrSZ0U4qtwJVODrlfyGcwmIOoHVqbAFFUx7kPoEN5JWr1cZFhLwoAwTmZOvqAm3YIkzv1engIQocg==
+  dependencies:
+    "@rollup/pluginutils" "^5.0.2"
+    escape-string-regexp "^5.0.0"
+    fast-glob "^3.2.12"
+    local-pkg "^0.4.3"
+    magic-string "^0.30.0"
+    mlly "^1.2.1"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
     scule "^1.0.0"
     strip-literal "^1.0.1"
     unplugin "^1.3.1"
