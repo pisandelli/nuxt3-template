@@ -1060,13 +1060,13 @@
     eslint-plugin-vue "^9.7.0"
     local-pkg "^0.4.2"
 
-"@nuxtjs/google-fonts@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.0.0.tgz#2d26ecb903034bf02899d961a57ac6c4ac8ab3f9"
-  integrity sha512-knP2CJFkMHGQ9pepVNwquXvqiIHDma/6yZNXiYk7WWatRbbQUPf2423vXiBYu267Mff2KMuDLoAJ1Dsv2ymhdQ==
+"@nuxtjs/google-fonts@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-fonts/-/google-fonts-3.0.1.tgz#adeb861736ef8b9e636f9ada8ec934727804a9df"
+  integrity sha512-9W5jZhpJ4UTmiPebljdoxs+ju89rOBVD5gb0sPRe73BVXCUUv46lV2Q0ynPZPsnono5WlTB6nyZbOCECa7IWDQ==
   dependencies:
-    "@nuxt/kit" "^3.2.3"
-    google-fonts-helper "^3.2.4"
+    "@nuxt/kit" "^3.5.0"
+    google-fonts-helper "^3.3.0"
     pathe "^1.1.0"
 
 "@nuxtjs/html-validator@^1.2.5":
@@ -4618,7 +4618,7 @@ globby@^13.1.2, globby@^13.1.3, globby@^13.1.4:
     merge2 "^1.4.1"
     slash "^4.0.0"
 
-google-fonts-helper@^3.2.4:
+google-fonts-helper@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/google-fonts-helper/-/google-fonts-helper-3.3.0.tgz#908f9b9fce267497c864e8cd7fb2089c55b126b6"
   integrity sha512-aFEVbmaavTY6wN3m6jZaWXQHfakMy6XNqdWN8YzHqHWCGpGma91zp8MiWsyb5i8gXQXYeGUWegb9ca/Jf/Q7Yw==
