@@ -1093,15 +1093,15 @@
     "@nuxt/kit" "^3.0.0"
     h3 "^1.0.1"
 
-"@nuxtjs/web-vitals@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/web-vitals/-/web-vitals-0.2.5.tgz#2daaa9edbb023af4fd96d12e483183c67152aaa0"
-  integrity sha512-A2AeO7RpzARxQ3lBf3U8UMPDaM8Y4TIBDDMUZ5IeYJazWHIJe+5Mw9fhdvE2VrOUY+zNmEDAEKkc3YujKc7rcg==
+"@nuxtjs/web-vitals@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/web-vitals/-/web-vitals-0.2.6.tgz#a7e35680db509d1e65b5813ab5d1d88ec0c0ba40"
+  integrity sha512-hoLo/Lcl63rDEm1gR/VN3sSG7mO4UKzJF69lyKjm+cSWtnSinSQo4n/8V0qmDqVgC3GPfvC1X/IqZx5FaRSS/g==
   dependencies:
-    "@nuxt/kit" "^3.4.3"
+    "@nuxt/kit" "^3.5.0"
     defu "^6.1.2"
     pathe "^1.1.0"
-    ufo "^1.1.1"
+    ufo "^1.1.2"
     web-vitals "^3.3.1"
 
 "@pinia/nuxt@^0.4.11":
