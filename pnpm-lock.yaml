@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.0.1
     version: 3.0.1
   '@nuxtjs/html-validator':
-    specifier: ^1.5.0
-    version: 1.5.0
+    specifier: ^1.5.1
+    version: 1.5.1
   '@nuxtjs/robots':
     specifier: ^3.0.0
     version: 3.0.0
@@ -850,7 +850,7 @@ packages:
   /@harlanzw/nuxt-kit-extras@0.3.1:
     resolution: {integrity: sha512-gRVl2yeza3JQN3GIQt9bpkEBC5i/axZTrKnfDVro9igH1tFCyavhREEs1geezThr5TO1eL0Uv+B6o6fwzoddmg==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge@3.6.2-28138152.6a9fbbfe
+      '@nuxt/kit': /@nuxt/kit-edge@3.6.3-28144262.1605a532
       ufo: 0.7.11
     transitivePeerDependencies:
       - rollup
@@ -1160,18 +1160,18 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.6.2-28138152.6a9fbbfe:
-    resolution: {integrity: sha512-cUJEYrq2wPNNb18v3nqtfqFLpjmqar3KnAF9Nop2Xw0g6bFKrXvLee8JykDV0D5DHd92bZjAp69JsscVKsa8Ew==}
+  /@nuxt/kit-edge@3.6.3-28144262.1605a532:
+    resolution: {integrity: sha512-Fq0wiASfn+bQM5oAC2jR7J9wDaWlw6d7fdDa5y7684hndlWu07uPKjAl+bB3XfDE2WFLMpFnRopTYXG0Wczhbw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.6.2-28138152.6a9fbbfe
+      '@nuxt/schema': /@nuxt/schema-edge@3.6.3-28144262.1605a532
       c12: 1.4.2
-      consola: 3.2.2
+      consola: 3.2.3
       defu: 6.1.2
-      globby: 13.2.1
+      globby: 13.2.2
       hash-sum: 2.0.0
       ignore: 5.2.4
-      jiti: 1.18.2
+      jiti: 1.19.1
       knitwork: 1.0.0
       mlly: 1.4.0
       pathe: 1.1.1
@@ -1179,7 +1179,7 @@ packages:
       scule: 1.0.0
       semver: 7.5.3
       unctx: 2.3.1
-      unimport: 3.0.11(rollup@3.26.0)
+      unimport: 3.0.14
       untyped: 1.3.2
     transitivePeerDependencies:
       - rollup
@@ -1238,8 +1238,8 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/schema-edge@3.6.2-28138152.6a9fbbfe:
-    resolution: {integrity: sha512-ycE+zpUbXi34o9NfrXp8g1YwvrGT3Zy0TpE2Ie3Msvqij4o6+plq5oqxD3u1tTRMcZf+l645MMzTwbifMZDnTA==}
+  /@nuxt/schema-edge@3.6.3-28144262.1605a532:
+    resolution: {integrity: sha512-diG4O0XMoM6TCAtjvGC/jmRTO0ttZ5ug+cvyglQ0NMYriW+pnqu6sFjcxwhiP7H6+PsiJhosfsZTJK3ADqdKGQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       defu: 6.1.2
@@ -1249,7 +1249,7 @@ packages:
       postcss-import-resolver: 2.0.0
       std-env: 3.3.3
       ufo: 1.1.2
-      unimport: 3.0.11(rollup@3.26.0)
+      unimport: 3.0.14
       untyped: 1.3.2
     transitivePeerDependencies:
       - rollup
@@ -1444,8 +1444,8 @@ packages:
       - supports-color
     dev: false
 
-  /@nuxtjs/html-validator@1.5.0:
-    resolution: {integrity: sha512-z5V4b/Ff84Hgqhjzqec5BFWp0XIGd0AxRJDx/le6Kidt1VR9SDzY+z7aYQvYZiERpzrziVlguqXAUSybsqQCqg==}
+  /@nuxtjs/html-validator@1.5.1:
+    resolution: {integrity: sha512-4CmDk9DCIRrDTqAkpGmmJJxJZ6Ns+rZAFsEAOQfUB4vWKlzCOx1m1XQH+hyhGBylZvPYwZ7W1H0UN2biUbEV3w==}
     dependencies:
       '@nuxt/kit': 3.6.1
       chalk: 5.3.0
@@ -2206,7 +2206,7 @@ packages:
     dependencies:
       '@unrouted/core': 0.5.0
       fs-extra: 10.1.0
-      globby: 13.2.1
+      globby: 13.2.2
       mlly: 1.4.0
       pathe: 1.1.1
       unimport: 1.3.0
@@ -3565,6 +3565,11 @@ packages:
   /consola@3.2.2:
     resolution: {integrity: sha512-r921u0vbF4lQsoIqYvSSER+yZLPQGijOHrYcWoCNVNBZmn/bRR+xT/DgerTze/nLD9TTGzdDa378TVhx7RDOYg==}
     engines: {node: ^14.18.0 || >=16.10.0}
+
+  /consola@3.2.3:
+    resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
+    engines: {node: ^14.18.0 || >=16.10.0}
+    dev: false
 
   /console-control-strings@1.1.0:
     resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==}
@@ -5246,6 +5251,17 @@ packages:
       merge2: 1.4.1
       slash: 4.0.0
 
+  /globby@13.2.2:
+    resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      dir-glob: 3.0.1
+      fast-glob: 3.3.0
+      ignore: 5.2.4
+      merge2: 1.4.1
+      slash: 4.0.0
+    dev: false
+
   /google-fonts-helper@3.3.0:
     resolution: {integrity: sha512-aFEVbmaavTY6wN3m6jZaWXQHfakMy6XNqdWN8YzHqHWCGpGma91zp8MiWsyb5i8gXQXYeGUWegb9ca/Jf/Q7Yw==}
     dependencies:
@@ -5924,6 +5940,11 @@ packages:
   /jiti@1.18.2:
     resolution: {integrity: sha512-QAdOptna2NYiSSpv0O/BwoHBSmz4YhpzJHyi+fnMRTXFjp7B8i/YG5Z8IfusxB1ufjcD2Sre1F3R+nX3fvy7gg==}
     hasBin: true
+
+  /jiti@1.19.1:
+    resolution: {integrity: sha512-oVhqoRDaBXf7sjkll95LHVS6Myyyb1zaunVwk4Z0+WPSW4gjS0pl01zYKHScTuyEhQsFxV5L4DR5r+YqSyqyyg==}
+    hasBin: true
+    dev: false
 
   /jpeg-js@0.4.4:
     resolution: {integrity: sha512-WZzeDOEtTOBK4Mdsar0IqEU5sMr3vSV2RqkAIzUEV2BHnUfKGyswWFPFwK5EeDo93K3FohSHbLAjj0s1Wzd+dg==}
@@ -8923,7 +8944,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.7.4
       defu: 6.1.2
-      jiti: 1.18.2
+      jiti: 1.19.1
     dev: false
 
   /uncrypto@0.1.3:
@@ -8994,6 +9015,24 @@ packages:
       unplugin: 1.3.1
     transitivePeerDependencies:
       - rollup
+
+  /unimport@3.0.14:
+    resolution: {integrity: sha512-67Rh/sGpEuVqdHWkXaZ6NOq+I7sKt86o+DUtKeGB6dh4Hk1A8AQrzyVGg2+LaVEYotStH7HwvV9YSaRjyT7Uqg==}
+    dependencies:
+      '@rollup/pluginutils': 5.0.2(rollup@3.26.0)
+      escape-string-regexp: 5.0.0
+      fast-glob: 3.3.0
+      local-pkg: 0.4.3
+      magic-string: 0.30.0
+      mlly: 1.4.0
+      pathe: 1.1.1
+      pkg-types: 1.0.3
+      scule: 1.0.0
+      strip-literal: 1.0.1
+      unplugin: 1.3.1
+    transitivePeerDependencies:
+      - rollup
+    dev: false
 
   /unique-string@2.0.0:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
