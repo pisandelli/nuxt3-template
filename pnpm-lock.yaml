@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^0.10.1
     version: 0.10.1(vue-i18n@9.2.2)
   '@nuxt/image-edge':
-    specifier: 1.0.0-rc.1-28135297.08462d1
-    version: 1.0.0-rc.1-28135297.08462d1
+    specifier: 1.0.0-rc.1-28164352.ad7c010
+    version: 1.0.0-rc.1-28164352.ad7c010
   '@nuxtjs/eslint-config-typescript':
     specifier: ^12.0.0
     version: 12.0.0(eslint@8.44.0)(typescript@5.1.6)
@@ -1140,12 +1140,12 @@ packages:
   /@nuxt/devalue@2.0.2:
     resolution: {integrity: sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==}
 
-  /@nuxt/image-edge@1.0.0-rc.1-28135297.08462d1:
-    resolution: {integrity: sha512-1xJQazHrssj4n9IiaFoB6TeR/NyJ24kCrDZf3n4XIych8yspamOO2o0GS+jbC5FBS5Kgcfqr/XlwsCczEIGufA==}
+  /@nuxt/image-edge@1.0.0-rc.1-28164352.ad7c010:
+    resolution: {integrity: sha512-deOQY0VAYtpjjxF1H1f18FgaIHU8gzecy4fge9rAZav4M4I7mY+uwgsidbYkEmJhoKv31ruE80TDLaE81PFFmQ==}
     engines: {node: ^14.16.0 || >=16.11.0}
     dependencies:
-      '@nuxt/kit': 3.6.1
-      consola: 3.2.2
+      '@nuxt/kit': 3.6.5
+      consola: 3.2.3
       defu: 6.1.2
       h3: 1.7.1
       image-meta: 0.1.1
@@ -1220,7 +1220,7 @@ packages:
     dependencies:
       '@nuxt/schema': 3.6.1
       c12: 1.4.2
-      consola: 3.2.2
+      consola: 3.2.3
       defu: 6.1.2
       globby: 13.2.2
       hash-sum: 2.0.0
@@ -1231,13 +1231,14 @@ packages:
       pathe: 1.1.1
       pkg-types: 1.0.3
       scule: 1.0.0
-      semver: 7.5.3
+      semver: 7.5.4
       unctx: 2.3.1
       unimport: 3.1.0(rollup@3.26.0)
       untyped: 1.3.2
     transitivePeerDependencies:
       - rollup
       - supports-color
+    dev: false
 
   /@nuxt/kit@3.6.5:
     resolution: {integrity: sha512-uBI5I2Zx6sk+vRHU+nBmifwxg/nyXCGZ1g5hUKrUfgv1ZfiKB8JkN5T9iRoduDOaqbwM6XSnEl1ja73iloDcrw==}
@@ -1316,6 +1317,7 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
+    dev: false
 
   /@nuxt/schema@3.6.5:
     resolution: {integrity: sha512-UPUnMB0W5TZ/Pi1fiF71EqIsPlj8LGZqzhSf8wOeh538KHwxbA9r7cuvEUU92eXRksOZaylbea3fJxZWhOITVw==}
@@ -1935,7 +1937,7 @@ packages:
       grapheme-splitter: 1.0.4
       ignore: 5.2.4
       natural-compare-lite: 1.4.0
-      semver: 7.5.3
+      semver: 7.5.4
       tsutils: 3.21.0(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
@@ -3610,10 +3612,6 @@ packages:
     resolution: {integrity: sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==}
     dev: false
 
-  /consola@3.2.2:
-    resolution: {integrity: sha512-r921u0vbF4lQsoIqYvSSER+yZLPQGijOHrYcWoCNVNBZmn/bRR+xT/DgerTze/nLD9TTGzdDa378TVhx7RDOYg==}
-    engines: {node: ^14.18.0 || >=16.10.0}
-
   /consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -4578,7 +4576,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.13
-      semver: 7.5.3
+      semver: 7.5.4
       vue-eslint-parser: 9.3.1(eslint@8.44.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -5673,7 +5671,7 @@ packages:
     requiresBuild: true
     dependencies:
       '@fastify/accept-negotiator': 1.1.0
-      consola: 3.2.2
+      consola: 3.2.3
       defu: 6.1.2
       destr: 1.2.2
       etag: 1.8.1
@@ -8184,13 +8182,6 @@ packages:
   /semver@6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
-
-  /semver@7.5.3:
-    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
 
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
