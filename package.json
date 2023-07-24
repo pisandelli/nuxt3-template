@@ -33,7 +33,7 @@
     "@morev/vue-transitions": "^2.3.6",
     "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/google-fonts": "^3.0.1",
-    "@nuxtjs/html-validator": "^1.5.0",
+    "@nuxtjs/html-validator": "^1.5.2",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/web-vitals": "^0.2.6",
     "@pinia/nuxt": "^0.4.11",
