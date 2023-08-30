@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^3.6.5
     version: 3.6.5(@types/node@20.3.3)(eslint@8.47.0)(stylus@0.59.0)(typescript@5.1.6)
   nuxt-layout-compositions:
-    specifier: ^1.1.1
-    version: 1.1.1
+    specifier: ^1.1.2
+    version: 1.1.2
   pug:
     specifier: ^3.0.2
     version: 3.0.2
@@ -864,7 +864,7 @@ packages:
   /@harlanzw/nuxt-kit-extras@0.3.1:
     resolution: {integrity: sha512-gRVl2yeza3JQN3GIQt9bpkEBC5i/axZTrKnfDVro9igH1tFCyavhREEs1geezThr5TO1eL0Uv+B6o6fwzoddmg==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28219436.a256c874
+      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf
       ufo: 0.7.11
     transitivePeerDependencies:
       - rollup
@@ -1185,11 +1185,11 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.7.1-28219436.a256c874:
-    resolution: {integrity: sha512-o0sG5rW0/QkyrDfxCcmIHVC1fvxbS9huEfkGkJqDOcFw4x9B32/rZs5Hbqh7SI1GSfSp9k1gPAwoZwyIL5g0PA==}
+  /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf:
+    resolution: {integrity: sha512-YWzmOFw4z+C7wPqhNCwUDWFv+XHYMCbldLfWOuVL8mFGN0H5LYoF9x7xk6/tQ6onC3wHXZyRWCagwW2Kk4lTLA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28219436.a256c874
+      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf
       c12: 1.4.2
       consola: 3.2.3
       defu: 6.1.2
@@ -1290,8 +1290,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/schema-edge@3.7.1-28219436.a256c874:
-    resolution: {integrity: sha512-Cq55BEIirlEHo9HJkz/Gt54lscTxLh69jWn0n8lWWXgh7zH1ud2ZtqKZioE37T5a9avJo3liKmsqQpQ6qOCMyw==}
+  /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf:
+    resolution: {integrity: sha512-zqdAT5rohhcZS4/Sz/Gh6YUsrvRQrZ92qBkDJz8JoqU1ut+15NI4/y5Q87bOtkQSQiSD93o5k+xNimIQtcn7xw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@nuxt/ui-templates': 1.3.1
@@ -6955,8 +6955,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-layout-compositions@1.1.1:
-    resolution: {integrity: sha512-fr2cNf60P8T+c9Kf5NRN4GNqmBGUUkTEASt5HA3brj0AFclsO0yjCWWt1YUkPawAArzPnjWdnfQYVA7XFx+tWg==}
+  /nuxt-layout-compositions@1.1.2:
+    resolution: {integrity: sha512-MdW8s0Zmuu26/PYXUeEhPbQD1QryOc2eo9h74wr3oQzVLUR7ONgF9joYuCq3WFwOxFYjL4HzBHlD4EXuecHaig==}
     dependencies:
       stylus: 0.59.0
     transitivePeerDependencies:
@@ -9271,7 +9271,7 @@ packages:
       fast-glob: 3.3.1
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.4.0
+      mlly: 1.4.1
       pathe: 1.1.1
       pkg-types: 1.0.3
       scule: 1.0.0
