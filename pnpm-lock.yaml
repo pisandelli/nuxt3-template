@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^3.6.5
     version: 3.6.5(@types/node@20.3.3)(eslint@8.47.0)(stylus@0.59.0)(typescript@5.1.6)
   nuxt-layout-compositions:
-    specifier: ^1.1.1
-    version: 1.1.1
+    specifier: ^1.1.2
+    version: 1.1.2
   pug:
     specifier: ^3.0.2
     version: 3.0.2
@@ -6891,8 +6891,8 @@ packages:
       - vue
     dev: false
 
-  /nuxt-layout-compositions@1.1.1:
-    resolution: {integrity: sha512-fr2cNf60P8T+c9Kf5NRN4GNqmBGUUkTEASt5HA3brj0AFclsO0yjCWWt1YUkPawAArzPnjWdnfQYVA7XFx+tWg==}
+  /nuxt-layout-compositions@1.1.2:
+    resolution: {integrity: sha512-MdW8s0Zmuu26/PYXUeEhPbQD1QryOc2eo9h74wr3oQzVLUR7ONgF9joYuCq3WFwOxFYjL4HzBHlD4EXuecHaig==}
     dependencies:
       stylus: 0.59.0
     transitivePeerDependencies:
