@@ -36,8 +36,8 @@ dependencies:
     specifier: ^1.4.0
     version: 1.4.0
   nuxt-icon:
-    specifier: ^0.4.2
-    version: 0.4.2(vue@3.3.4)
+    specifier: ^0.5.0
+    version: 0.5.0(vue@3.3.4)
   nuxt-purgecss:
     specifier: ^2.0.0
     version: 2.0.0(postcss@8.4.24)
@@ -1286,7 +1286,6 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf:
     resolution: {integrity: sha512-zqdAT5rohhcZS4/Sz/Gh6YUsrvRQrZ92qBkDJz8JoqU1ut+15NI4/y5Q87bOtkQSQiSD93o5k+xNimIQtcn7xw==}
@@ -1359,13 +1358,12 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/telemetry@2.3.2:
     resolution: {integrity: sha512-S2sF4hLQWS48lWPpRT8xqVUFuwFGTgeKvojp8vL/iP79fWxudua2DWXR15T8C2zpauYwNgEpEWJmy6vxY2ZQeg==}
     hasBin: true
     dependencies:
-      '@nuxt/kit': 3.6.5
+      '@nuxt/kit': 3.7.0
       chalk: 5.3.0
       ci-info: 3.8.0
       consola: 3.2.3
@@ -6880,11 +6878,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /nuxt-icon@0.4.2(vue@3.3.4):
-    resolution: {integrity: sha512-yFpvDA+FuUz+ixtt1eRzctTfR4sl7egZoXu7LL+CUc42qFlzCMaTZJ9eqFR2FTW8zu9tfLIZ83RJmUa1jNEWgg==}
+  /nuxt-icon@0.5.0(vue@3.3.4):
+    resolution: {integrity: sha512-ND4yh8kW4VyIbORP3cWjgVrOAvy6QSDFDTJltakdqmxVfVysNIs/bx2NzlkHeR1EOS8E/jVcemfTPmRsJ7WUVw==}
     dependencies:
       '@iconify/vue': 4.1.1(vue@3.3.4)
-      '@nuxt/kit': 3.6.1
+      '@nuxt/kit': 3.7.0
     transitivePeerDependencies:
       - rollup
       - supports-color
