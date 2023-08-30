@@ -36,8 +36,8 @@ dependencies:
     specifier: ^1.4.0
     version: 1.4.0
   nuxt-icon:
-    specifier: ^0.4.2
-    version: 0.4.2(vue@3.3.4)
+    specifier: ^0.5.0
+    version: 0.5.0(vue@3.3.4)
   nuxt-purgecss:
     specifier: ^2.0.0
     version: 2.0.0(postcss@8.4.24)
@@ -864,7 +864,7 @@ packages:
   /@harlanzw/nuxt-kit-extras@0.3.1:
     resolution: {integrity: sha512-gRVl2yeza3JQN3GIQt9bpkEBC5i/axZTrKnfDVro9igH1tFCyavhREEs1geezThr5TO1eL0Uv+B6o6fwzoddmg==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28219436.a256c874
+      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf
       ufo: 0.7.11
     transitivePeerDependencies:
       - rollup
@@ -1185,11 +1185,11 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.7.1-28219436.a256c874:
-    resolution: {integrity: sha512-o0sG5rW0/QkyrDfxCcmIHVC1fvxbS9huEfkGkJqDOcFw4x9B32/rZs5Hbqh7SI1GSfSp9k1gPAwoZwyIL5g0PA==}
+  /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf:
+    resolution: {integrity: sha512-YWzmOFw4z+C7wPqhNCwUDWFv+XHYMCbldLfWOuVL8mFGN0H5LYoF9x7xk6/tQ6onC3wHXZyRWCagwW2Kk4lTLA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28219436.a256c874
+      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf
       c12: 1.4.2
       consola: 3.2.3
       defu: 6.1.2
@@ -1288,10 +1288,9 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
-  /@nuxt/schema-edge@3.7.1-28219436.a256c874:
-    resolution: {integrity: sha512-Cq55BEIirlEHo9HJkz/Gt54lscTxLh69jWn0n8lWWXgh7zH1ud2ZtqKZioE37T5a9avJo3liKmsqQpQ6qOCMyw==}
+  /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf:
+    resolution: {integrity: sha512-zqdAT5rohhcZS4/Sz/Gh6YUsrvRQrZ92qBkDJz8JoqU1ut+15NI4/y5Q87bOtkQSQiSD93o5k+xNimIQtcn7xw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@nuxt/ui-templates': 1.3.1
@@ -1361,13 +1360,12 @@ packages:
     transitivePeerDependencies:
       - rollup
       - supports-color
-    dev: true
 
   /@nuxt/telemetry@2.3.2:
     resolution: {integrity: sha512-S2sF4hLQWS48lWPpRT8xqVUFuwFGTgeKvojp8vL/iP79fWxudua2DWXR15T8C2zpauYwNgEpEWJmy6vxY2ZQeg==}
     hasBin: true
     dependencies:
-      '@nuxt/kit': 3.6.5
+      '@nuxt/kit': 3.7.0
       chalk: 5.3.0
       ci-info: 3.8.0
       consola: 3.2.3
@@ -2180,7 +2178,7 @@ packages:
       defu: 6.1.2
       fuse.js: 6.6.2
       lodash-es: 4.17.21
-      ufo: 1.2.0
+      ufo: 1.3.0
       vue: 3.3.4
     dev: false
 
@@ -2324,11 +2322,11 @@ packages:
       defu: 6.1.2
       h3: 1.7.1
       hookable: 5.5.3
-      mlly: 1.4.0
+      mlly: 1.4.1
       ohash: 1.1.2
       pathe: 1.1.1
       radix3: 1.0.1
-      ufo: 1.2.0
+      ufo: 1.3.0
       unctx: 2.3.1
     dev: false
 
@@ -2344,7 +2342,7 @@ packages:
       '@unrouted/core': 0.5.0
       fs-extra: 10.1.0
       globby: 13.2.2
-      mlly: 1.4.0
+      mlly: 1.4.1
       pathe: 1.1.1
       unimport: 1.3.0
       untyped: 1.4.0
@@ -2371,7 +2369,7 @@ packages:
       h3: 1.7.1
       pathe: 1.1.1
       sirv: 2.0.3
-      ufo: 1.2.0
+      ufo: 1.3.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -6944,11 +6942,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
 
-  /nuxt-icon@0.4.2(vue@3.3.4):
-    resolution: {integrity: sha512-yFpvDA+FuUz+ixtt1eRzctTfR4sl7egZoXu7LL+CUc42qFlzCMaTZJ9eqFR2FTW8zu9tfLIZ83RJmUa1jNEWgg==}
+  /nuxt-icon@0.5.0(vue@3.3.4):
+    resolution: {integrity: sha512-ND4yh8kW4VyIbORP3cWjgVrOAvy6QSDFDTJltakdqmxVfVysNIs/bx2NzlkHeR1EOS8E/jVcemfTPmRsJ7WUVw==}
     dependencies:
       '@iconify/vue': 4.1.1(vue@3.3.4)
-      '@nuxt/kit': 3.6.1
+      '@nuxt/kit': 3.7.0
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -9216,7 +9214,7 @@ packages:
     dependencies:
       '@antfu/utils': 0.7.4
       defu: 6.1.2
-      jiti: 1.19.1
+      jiti: 1.19.3
     dev: false
 
   /uncrypto@0.1.3:
@@ -9271,7 +9269,7 @@ packages:
       fast-glob: 3.3.1
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.4.0
+      mlly: 1.4.1
       pathe: 1.1.1
       pkg-types: 1.0.3
       scule: 1.0.0
