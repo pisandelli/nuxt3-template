@@ -33,8 +33,8 @@ dependencies:
     specifier: ^10.3.0
     version: 10.3.0(nuxt@3.6.5)(vue@3.3.4)
   axios:
-    specifier: ^1.4.0
-    version: 1.4.0
+    specifier: ^1.5.0
+    version: 1.5.0
   nuxt-icon:
     specifier: ^0.5.0
     version: 0.5.0(vue@3.3.4)
@@ -857,7 +857,7 @@ packages:
   /@harlanzw/nuxt-kit-extras@0.3.1:
     resolution: {integrity: sha512-gRVl2yeza3JQN3GIQt9bpkEBC5i/axZTrKnfDVro9igH1tFCyavhREEs1geezThr5TO1eL0Uv+B6o6fwzoddmg==}
     dependencies:
-      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf
+      '@nuxt/kit': /@nuxt/kit-edge@3.7.1-28226810.4e05650c
       ufo: 0.7.11
     transitivePeerDependencies:
       - rollup
@@ -1183,11 +1183,11 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/kit-edge@3.7.1-28223216.aa0ea8bf:
-    resolution: {integrity: sha512-YWzmOFw4z+C7wPqhNCwUDWFv+XHYMCbldLfWOuVL8mFGN0H5LYoF9x7xk6/tQ6onC3wHXZyRWCagwW2Kk4lTLA==}
+  /@nuxt/kit-edge@3.7.1-28226810.4e05650c:
+    resolution: {integrity: sha512-ulrVCWo2brSMAWaNGYl0Q52zTYDKpUdGBj++xqd1oVfS68XP4wZZj9/5CBjQAw4sY0i7/ZYeTUAK1BVm+WGBzA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf
+      '@nuxt/schema': /@nuxt/schema-edge@3.7.1-28226810.4e05650c
       c12: 1.4.2
       consola: 3.2.3
       defu: 6.1.2
@@ -1287,8 +1287,8 @@ packages:
       - rollup
       - supports-color
 
-  /@nuxt/schema-edge@3.7.1-28223216.aa0ea8bf:
-    resolution: {integrity: sha512-zqdAT5rohhcZS4/Sz/Gh6YUsrvRQrZ92qBkDJz8JoqU1ut+15NI4/y5Q87bOtkQSQiSD93o5k+xNimIQtcn7xw==}
+  /@nuxt/schema-edge@3.7.1-28226810.4e05650c:
+    resolution: {integrity: sha512-eoQVvPLg1qjL/zwVGuxANIn5/SYu3dYG6rkmfLHMvPSEci47JJWbZXK+a6nkmOWK+DBzjNjNtorIjA73AQw4uQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@nuxt/ui-templates': 1.3.1
@@ -3056,6 +3056,16 @@ packages:
 
   /axios@1.4.0:
     resolution: {integrity: sha512-S4XCWMEmzvo64T9GfvQDOXgYRDJ/wsSZc7Jvdgx5u1sd0JwsuPLqb3SYmusag+edF6ziyMensPVqLTSc1PiSEA==}
+    dependencies:
+      follow-redirects: 1.15.2
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+    dev: false
+
+  /axios@1.5.0:
+    resolution: {integrity: sha512-D4DdjDo5CY50Qms0qGQTTw6Q44jl7zRwY7bthds06pUGfChBCTcQs+N743eFWGEd6pRTMd6A+I87aWyFV5wiZQ==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
