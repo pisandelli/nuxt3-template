@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@intlify/unplugin-vue-i18n": "^0.13.0",
-    "@nuxt/image-edge": "1.0.0-rc.1-28217290.de85e17",
+    "@nuxt/image-edge": "1.0.0-rc.2-28246613.7d120ca",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@vue/language-plugin-pug": "^1.8.8",
     "cz-conventional-changelog": "^3.3.0",
