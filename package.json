@@ -39,7 +39,7 @@
     "@pinia/nuxt": "^0.4.11",
     "@unlighthouse/nuxt": "^0.10.0",
     "@vueuse/nuxt": "^10.3.0",
-    "axios": "^1.4.0",
+    "axios": "^1.5.1",
     "nuxt-icon": "^0.5.0",
     "nuxt-purgecss": "^2.0.0"
   }
