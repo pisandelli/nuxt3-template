@@ -41,9 +41,6 @@ export default defineNuxtConfig({
           imports: [
             fileURLToPath(
               new URL('./assets/styles/abstracts/*.styl', import.meta.url)
-            ),
-            fileURLToPath(
-              new URL('./assets/styles/utilities/*.styl', import.meta.url)
             )
           ]
         }
@@ -84,9 +81,10 @@ export default defineNuxtConfig({
       // add robots config here
       // https://github.com/nuxt-community/robots-module#robots-config
     }],
-    ['@nuxt/image-edge', {
+    ['@nuxt/image', {
       // add nuxt-image config here
       // https://v1.image.nuxtjs.org/configuration
+      dir: 'assets/images/'
     }],
     ['@vueuse/nuxt', {
       // No options, but see the section Caveats for further info
@@ -95,10 +93,6 @@ export default defineNuxtConfig({
     ['@nuxtjs/color-mode', {
       // Control the site color Mode
       // https://color-mode.nuxtjs.org/
-    }],
-    ['nuxt-purgecss', {
-      // Add purgecss options
-      // https://purgecss.com/guides/nuxt.html#options
     }],
     ['@nuxtjs/web-vitals', {
       // Add custom config
