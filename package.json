@@ -15,30 +15,30 @@
     }
   },
   "devDependencies": {
-    "@intlify/unplugin-vue-i18n": "^1.5.0",
-    "@nuxt/image": "1.0.0",
+    "@intlify/unplugin-vue-i18n": "^2.0.0",
+    "@nuxt/image": "1.1.0",
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@vue/language-plugin-pug": "^1.8.27",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.52.0",
+    "eslint": "^8.56.0",
     "husky": "^8.0.3",
-    "nuxt": "^3.8.2",
+    "nuxt": "^3.9.1",
     "nuxt-layout-compositions": "^1.1.2",
     "pug": "^3.0.2",
     "stylus": "^0.62.0",
-    "vitest": "^0.34.6",
-    "vue-i18n": "^9.2.2"
+    "vitest": "^1.1.3",
+    "vue-i18n": "^9.9.0"
   },
   "dependencies": {
     "@morev/vue-transitions": "^2.3.6",
     "@nuxtjs/color-mode": "^3.3.2",
-    "@nuxtjs/google-fonts": "^3.0.2",
+    "@nuxtjs/google-fonts": "^3.1.3",
     "@nuxtjs/html-validator": "^1.6.0",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/web-vitals": "^0.2.6",
     "@pinia/nuxt": "^0.5.1",
     "@unlighthouse/nuxt": "^0.10.4",
     "@vueuse/nuxt": "^10.7.1",
-    "nuxt-icon": "^0.6.6"
+    "nuxt-icon": "^0.6.8"
   }
 }
