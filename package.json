@@ -37,7 +37,7 @@
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/web-vitals": "^0.2.6",
     "@pinia/nuxt": "^0.5.1",
-    "@unlighthouse/nuxt": "^0.10.4",
+    "@unlighthouse/nuxt": "^0.10.5",
     "@vueuse/nuxt": "^10.7.1",
     "nuxt-icon": "^0.6.8"
   }
