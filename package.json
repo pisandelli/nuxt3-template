@@ -20,7 +20,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@vue/language-plugin-pug": "^1.8.27",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "nuxt": "^3.10.3",
     "nuxt-layout-compositions": "^2.0.2",
