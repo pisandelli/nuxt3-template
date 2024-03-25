@@ -39,6 +39,6 @@
     "@pinia/nuxt": "^0.5.1",
     "@unlighthouse/nuxt": "^0.10.6",
     "@vueuse/nuxt": "^10.7.2",
-    "nuxt-icon": "^0.6.8"
+    "nuxt-icon": "^0.6.10"
   }
 }
