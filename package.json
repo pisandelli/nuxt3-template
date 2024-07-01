@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@morev/vue-transitions": "^3.0.2",
-    "@nuxtjs/color-mode": "^3.4.1",
+    "@nuxtjs/color-mode": "^3.4.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/html-validator": "^1.8.2",
     "@nuxtjs/robots": "^3.0.0",
