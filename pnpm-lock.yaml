@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2(magicast@0.3.4)(rollup@4.19.0)(vue@3.4.29(typescript@5.3.3))
       '@nuxtjs/color-mode':
-        specifier: ^3.4.1
-        version: 3.4.1(magicast@0.3.4)(rollup@4.19.0)
+        specifier: ^3.4.2
+        version: 3.4.2(magicast@0.3.4)(rollup@4.19.0)
       '@nuxtjs/google-fonts':
         specifier: ^3.2.0
         version: 3.2.0(magicast@0.3.4)(rollup@4.19.0)
@@ -1014,8 +1014,8 @@ packages:
     peerDependencies:
       vue: ^3.3.4
 
-  '@nuxtjs/color-mode@3.4.1':
-    resolution: {integrity: sha512-vZgJqDstxInGw3RGSWbLoCLXtU1mvh1LLeuEA/X3a++DYA4ifwSbNoiSiOyb9qZHFEwz1Xr99H71sXV4IhOaEg==}
+  '@nuxtjs/color-mode@3.4.2':
+    resolution: {integrity: sha512-6A+lDP8R6fFXc1Ip5tDepKq9MJW6oxbRlz1plvW52yacnpeDFXv5S5rDS0ax31AuSFUPlgzHymFSdjcylBwZ6w==}
 
   '@nuxtjs/eslint-config-typescript@12.1.0':
     resolution: {integrity: sha512-l2fLouDYwdAvCZEEw7wGxOBj+i8TQcHFu3zMPTLqKuv1qu6WcZIr0uztkbaa8ND1uKZ9YPqKx6UlSOjM4Le69Q==}
@@ -3974,10 +3974,6 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
-
   lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
@@ -4516,9 +4512,6 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pkg-types@1.1.0:
-    resolution: {integrity: sha512-/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==}
-
   pkg-types@1.1.1:
     resolution: {integrity: sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==}
 
@@ -5049,11 +5042,6 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-
-  semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.6.2:
@@ -6921,7 +6909,7 @@ snapshots:
 
   '@nuxt/devtools-kit@1.2.0(magicast@0.3.4)(nuxt@3.12.4(@parcel/watcher@2.4.1)(@types/node@20.11.17)(encoding@0.1.13)(eslint@9.7.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.3)(rollup@4.19.0)(stylus@0.63.0)(terser@5.27.0)(typescript@5.3.3)(vite@5.3.4(@types/node@20.11.17)(stylus@0.63.0)(terser@5.27.0)))(rollup@4.19.0)(vite@5.3.4(@types/node@20.11.17)(stylus@0.63.0)(terser@5.27.0))':
     dependencies:
-      '@nuxt/kit': 3.12.2(magicast@0.3.4)(rollup@4.19.0)
+      '@nuxt/kit': 3.12.4(magicast@0.3.4)(rollup@4.19.0)
       '@nuxt/schema': 3.12.2(rollup@4.19.0)
       execa: 7.2.0
       nuxt: 3.12.4(@parcel/watcher@2.4.1)(@types/node@20.11.17)(encoding@0.1.13)(eslint@9.7.0)(ioredis@5.4.1)(magicast@0.3.4)(optionator@0.9.3)(rollup@4.19.0)(stylus@0.63.0)(terser@5.27.0)(typescript@5.3.3)(vite@5.3.4(@types/node@20.11.17)(stylus@0.63.0)(terser@5.27.0))
@@ -7072,9 +7060,9 @@ snapshots:
       knitwork: 1.1.0
       mlly: 1.7.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
-      semver: 7.6.2
+      semver: 7.6.3
       ufo: 1.5.3
       unctx: 2.3.1
       unimport: 3.7.2(rollup@4.19.0)
@@ -7097,9 +7085,9 @@ snapshots:
       knitwork: 1.1.0
       mlly: 1.7.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
-      semver: 7.6.2
+      semver: 7.6.3
       ufo: 1.5.3
       unctx: 2.3.1
       unimport: 3.7.2(rollup@4.19.0)
@@ -7149,9 +7137,9 @@ snapshots:
       knitwork: 1.1.0
       mlly: 1.7.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
-      semver: 7.6.2
+      semver: 7.6.3
       ufo: 1.5.3
       unctx: 2.3.1
       unimport: 3.7.2(rollup@4.19.0)
@@ -7212,11 +7200,11 @@ snapshots:
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       std-env: 3.7.0
-      ufo: 1.5.3
-      unimport: 3.7.2(rollup@4.19.0)
+      ufo: 1.5.4
+      unimport: 3.9.0(rollup@4.19.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - rollup
@@ -7229,11 +7217,11 @@ snapshots:
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       std-env: 3.7.0
-      ufo: 1.5.3
-      unimport: 3.7.2(rollup@4.19.0)
+      ufo: 1.5.4
+      unimport: 3.9.0(rollup@4.19.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - rollup
@@ -7246,7 +7234,7 @@ snapshots:
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       std-env: 3.7.0
       ufo: 1.5.3
@@ -7263,12 +7251,12 @@ snapshots:
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       std-env: 3.7.0
-      ufo: 1.5.3
+      ufo: 1.5.4
       uncrypto: 0.1.3
-      unimport: 3.7.2(rollup@4.19.0)
+      unimport: 3.9.0(rollup@4.19.0)
       untyped: 1.4.2
     transitivePeerDependencies:
       - rollup
@@ -7376,12 +7364,12 @@ snapshots:
       - vti
       - vue-tsc
 
-  '@nuxtjs/color-mode@3.4.1(magicast@0.3.4)(rollup@4.19.0)':
+  '@nuxtjs/color-mode@3.4.2(magicast@0.3.4)(rollup@4.19.0)':
     dependencies:
-      '@nuxt/kit': 3.11.2(magicast@0.3.4)(rollup@4.19.0)
+      '@nuxt/kit': 3.12.4(magicast@0.3.4)(rollup@4.19.0)
       pathe: 1.1.2
-      pkg-types: 1.1.0
-      semver: 7.6.0
+      pkg-types: 1.1.3
+      semver: 7.6.3
     transitivePeerDependencies:
       - magicast
       - rollup
@@ -7867,7 +7855,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.1
       natural-compare: 1.4.0
-      semver: 7.6.2
+      semver: 7.6.3
       ts-api-utils: 1.2.1(typescript@5.3.3)
     optionalDependencies:
       typescript: 5.3.3
@@ -7914,7 +7902,7 @@ snapshots:
       globby: 11.1.0
       is-glob: 4.0.3
       minimatch: 9.0.3
-      semver: 7.6.2
+      semver: 7.6.3
       ts-api-utils: 1.2.1(typescript@5.3.3)
     optionalDependencies:
       typescript: 5.3.3
@@ -7930,7 +7918,7 @@ snapshots:
       '@typescript-eslint/types': 6.21.0
       '@typescript-eslint/typescript-estree': 6.21.0(typescript@5.3.3)
       eslint: 9.7.0
-      semver: 7.6.2
+      semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -7973,7 +7961,7 @@ snapshots:
       defu: 6.1.4
       fuse.js: 6.6.2
       lodash-es: 4.17.21
-      ufo: 1.5.3
+      ufo: 1.5.4
       vue: 3.4.29(typescript@5.3.3)
     transitivePeerDependencies:
       - typescript
@@ -8110,7 +8098,7 @@ snapshots:
       ohash: 1.1.3
       pathe: 1.1.2
       radix3: 1.1.2
-      ufo: 1.5.3
+      ufo: 1.5.4
       unctx: 2.3.1
     transitivePeerDependencies:
       - uWebSockets.js
@@ -8150,7 +8138,7 @@ snapshots:
       h3: 1.11.1
       pathe: 1.1.2
       sirv: 2.0.4
-      ufo: 1.5.3
+      ufo: 1.5.4
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -8879,7 +8867,7 @@ snapshots:
 
   builtins@5.0.1:
     dependencies:
-      semver: 7.6.2
+      semver: 7.6.3
 
   bundle-name@4.1.0:
     dependencies:
@@ -9829,7 +9817,7 @@ snapshots:
       is-core-module: 2.13.1
       minimatch: 3.1.2
       resolve: 1.22.8
-      semver: 7.6.2
+      semver: 7.6.3
 
   eslint-plugin-node@11.1.0(eslint@9.7.0):
     dependencies:
@@ -9860,7 +9848,7 @@ snapshots:
       read-pkg-up: 7.0.1
       regexp-tree: 0.1.27
       safe-regex: 2.1.1
-      semver: 7.6.2
+      semver: 7.6.3
       strip-indent: 3.0.0
 
   eslint-plugin-vue@9.21.1(eslint@9.7.0):
@@ -9870,7 +9858,7 @@ snapshots:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.15
-      semver: 7.6.2
+      semver: 7.6.3
       vue-eslint-parser: 9.4.2(eslint@9.7.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -10490,7 +10478,7 @@ snapshots:
       kleur: 4.1.5
       minimist: 1.2.8
       prompts: 2.4.2
-      semver: 7.6.2
+      semver: 7.6.3
     optionalDependencies:
       vitest: 1.6.0(@types/node@20.11.17)(stylus@0.63.0)(terser@5.27.0)
 
@@ -10874,7 +10862,7 @@ snapshots:
       acorn: 8.12.1
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      semver: 7.6.2
+      semver: 7.6.3
 
   jsonfile@4.0.0:
     optionalDependencies:
@@ -11009,7 +10997,7 @@ snapshots:
   local-pkg@0.5.0:
     dependencies:
       mlly: 1.7.1
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
 
   locate-path@5.0.0:
     dependencies:
@@ -11061,10 +11049,6 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
-
-  lru-cache@6.0.0:
-    dependencies:
-      yallist: 4.0.0
 
   lru-cache@7.18.3: {}
 
@@ -11745,12 +11729,6 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pkg-types@1.1.0:
-    dependencies:
-      confbox: 0.1.7
-      mlly: 1.7.1
-      pathe: 1.1.2
-
   pkg-types@1.1.1:
     dependencies:
       confbox: 0.1.7
@@ -12393,10 +12371,6 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.6.0:
-    dependencies:
-      lru-cache: 6.0.0
-
   semver@7.6.2: {}
 
   semver@7.6.3: {}
@@ -12461,7 +12435,7 @@ snapshots:
       detect-libc: 2.0.2
       node-addon-api: 6.1.0
       prebuild-install: 7.1.2
-      semver: 7.6.2
+      semver: 7.6.3
       simple-get: 4.0.1
       tar-fs: 3.0.4
       tunnel-agent: 0.6.0
@@ -12998,7 +12972,7 @@ snapshots:
       magic-string: 0.30.10
       mlly: 1.7.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       strip-literal: 2.1.0
       unplugin: 1.10.1
@@ -13380,7 +13354,7 @@ snapshots:
       espree: 9.6.1
       esquery: 1.5.0
       lodash: 4.17.21
-      semver: 7.6.2
+      semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
 
