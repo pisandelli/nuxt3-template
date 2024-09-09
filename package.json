@@ -34,7 +34,7 @@
     "@nuxtjs/color-mode": "^3.4.2",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/html-validator": "^1.8.2",
-    "@nuxtjs/robots": "^3.0.0",
+    "@nuxtjs/robots": "^4.1.6",
     "@nuxtjs/web-vitals": "^0.2.7",
     "@pinia/nuxt": "^0.5.1",
     "@unlighthouse/nuxt": "^0.10.6",
