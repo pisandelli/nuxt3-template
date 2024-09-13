@@ -36,7 +36,7 @@
     "@nuxtjs/html-validator": "^1.8.2",
     "@nuxtjs/robots": "^4.1.6",
     "@nuxtjs/web-vitals": "^0.2.7",
-    "@pinia/nuxt": "^0.5.1",
+    "@pinia/nuxt": "^0.5.4",
     "@unlighthouse/nuxt": "^0.10.6",
     "@vueuse/nuxt": "^10.11.0",
     "nuxt-icon": "^0.6.10"
