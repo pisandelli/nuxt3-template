@@ -16,9 +16,9 @@
     "sysoev.language-stylus",
     "vue.vscode-typescript-vue-plugin",
     "antfu.vite",
-    "vue.volar",
     "sdras.vue-vscode-snippets",
     "vitest.explorer",
     "nuxtr.nuxtr-vscode",
+    "nuxtr.nuxt-vscode-extentions",
   ]
 }

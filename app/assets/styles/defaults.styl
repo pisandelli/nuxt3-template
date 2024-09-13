@@ -1,0 +1,80 @@
+@require 'abstracts/mixins.styl'
+:root
+  --animation-speed: 0.5s
+  --border-radius: 0.3rem
+  --ratio: 1.5
+  --max-width: 128ch
+  --gap: 1.5rem
+
+  //Layout Composition Defaults
+  --topbar-height: 3.4375rem
+
+  --font-plain: 'Noto Sans', sans-serif
+
+  --font-size-tiny: 0.75rem
+  --font-size-small: 0.875rem
+  --font-size-base: 1rem
+  --font-size-big: 1.4rem
+  --font-size-bigger: 1.75rem
+  --font-size-huge: 2rem
+
+  --weight-light: 300
+  --weight-regular: 400
+  --weight-medium: 600
+  --weight-bold: 700
+
+  /* MODULAR SCALE */
+  --s-1: calc(var(--s0) / var(--ratio))
+  --s0: 1rem
+  --s1: calc(var(--s0) * var(--ratio))
+  --s2: calc(var(--s1) * var(--ratio))
+  --s3: calc(var(--s2) * var(--ratio))
+
+  --stack-300: 0
+  --stack-400: 10
+  --stack-500: 20
+  --stack-600: 30
+  --stack-700: 40
+
+  --border-thin: 0.0625rem
+  --border-medium: calc(var(--border-thin) * calc(var(--ratio) * 2))
+  --border-thick: calc(var(--border-medium) * calc(var(--ratio) * 2.5))
+
+  //COLOR PALETTE
+  //
+  // Defines a set of color palette variables for use
+  // throughout the application.
+  // The variables are named using the format
+  // --color-{$name}-{$amount} for light colors and
+  // --color-{$name}-dark-{$amount} for dark colors.
+  // The default scale variation for $amount is 25.
+  // --color-primary-25 is the lightest primary color,
+  // --color-primary-dark-75 is the darkest primary color.
+  // --color-primary is the default color.
+  // The default variables for primary palette are:
+  // --color-primary, 
+  // --color-primary-25, 
+  // --color-primary-50, 
+  // --color-primary-75,
+  // --color-primary-dark-25,
+  // --color-primary-dark-50,
+  // --color-primary-dark-75
+  // It's possible to change the scale variation adding a third argument to the mixin.
+  // E.g. _color-palette('primary', #0090ea, 10) will increase the scale variation to 10.
+  // --color-primary, --color-primary-10, --color-primary-20, --color-primary-30, etc...
+  //
+  _color-palette('primary', #0090ea)
+  _color-palette('secondary', #9c19a3)
+  _color-palette('accent', #e01b87)
+  _color-palette('success', #34C759)
+  _color-palette('warning', #FA8C16)
+  _color-palette('danger', #FF3B30)
+  _color-palette('info', #00a1d0)
+  _color-palette('gray', #999)
+
+  --color-neutral: #fbfbfb
+  --color-default: var(--color-gray-dark-50)
+
+  font-family: var(--font-plain)
+  line-height: var(--ratio)
+  color: var(--color-default)
