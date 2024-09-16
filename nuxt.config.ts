@@ -161,6 +161,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2024-09-16',
   devtools: { enabled: true },
 });
