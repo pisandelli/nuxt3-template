@@ -26,14 +26,8 @@ export default defineNuxtConfig({
     images: fileURLToPath(new URL('./assets/images', import.meta.url)),
     style: fileURLToPath(new URL('./assets/styles', import.meta.url)),
     utilities: fileURLToPath(
-      new URL('./assets/styles/utilities', import.meta.url)
+      new URL('./assets/styles/utilities', import.meta.url),
     ),
-  },
-
-  // Enabled Take Over Mode or installed the TypeScript Vue Plugin (Volar)
-  // https://nuxt.com/docs/getting-started/installation#prerequisites
-  typescript: {
-    shim: false,
   },
   css: ['@/assets/styles/reset.styl'],
   vite: {
@@ -42,7 +36,7 @@ export default defineNuxtConfig({
         stylus: {
           imports: [
             fileURLToPath(
-              new URL('./assets/styles/abstracts/*.styl', import.meta.url)
+              new URL('./assets/styles/abstracts/*.styl', import.meta.url),
             ),
           ],
         },
@@ -60,7 +54,6 @@ export default defineNuxtConfig({
     [
       '@nuxt/eslint',
       {
-        // TODO: ADD CONFIG FOR ESLINT
         // Add custom options for ESLint
         // https://eslint.nuxt.com/packages/config
       },
