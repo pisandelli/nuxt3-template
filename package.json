@@ -1,44 +1,51 @@
 {
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "vitest --run --reporter verbose --globals",
-    "test:watch": "vitest --reporter verbose --globals"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "devDependencies": {
-    "@intlify/unplugin-vue-i18n": "^4.0.0",
-    "@nuxt/image": "1.7.0",
-    "@nuxtjs/eslint-config-typescript": "^12.1.0",
-    "@vue/language-plugin-pug": "^2.1.6",
-    "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.7.0",
-    "husky": "^9.1.1",
-    "nuxt": "^3.12.4",
-    "nuxt-layout-compositions": "^2.0.2",
-    "pug": "^3.0.3",
-    "stylus": "^0.63.0",
-    "vitest": "^1.6.0",
-    "vue-i18n": "^9.13.1"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@morev/vue-transitions": "^3.0.2",
-    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxt/eslint": "^0.5.7",
+    "@nuxt/fonts": "^0.8.0",
+    "@nuxt/icon": "^1.5.1",
+    "@nuxt/image": "^1.8.0",
+    "@nuxt/kit": "^3.13.2",
+    "@nuxt/schema": "^3.13.2",
+    "@nuxt/scripts": "^0.8.5",
+    "@nuxt/test-utils": "^3.14.2",
+    "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/html-validator": "^1.8.2",
-    "@nuxtjs/robots": "^4.1.6",
+    "@nuxtjs/robots": "^4.1.7",
+    "@nuxtjs/seo": "^2.0.0-rc.21",
     "@nuxtjs/web-vitals": "^0.2.7",
-    "@pinia/nuxt": "^0.5.1",
-    "@unlighthouse/nuxt": "^0.10.6",
-    "@vueuse/nuxt": "^10.11.0",
-    "nuxt-icon": "^0.6.10"
-  }
+    "@pinia/nuxt": "^0.5.4",
+    "@vueuse/core": "^11.1.0",
+    "@vueuse/nuxt": "^11.1.0",
+    "dayjs-nuxt": "^2.1.11",
+    "nuxt": "^3.13.2",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@vue/language-plugin-pug": "^2.1.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.10.0",
+    "husky": "^9.1.6",
+    "nuxt-layout-compositions": "^2.0.2",
+    "pug": "^3.0.3",
+    "stylus": "^0.63.0",
+    "vitest": "^2.1.1"
+  },
+  "trustedDependencies": [
+    "@morev/vue-transitions"
+  ]
 }

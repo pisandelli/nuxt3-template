@@ -1,0 +1,27 @@
+// Create a perfect Square
+_square(val)
+  inline-size: val
+  aspect-ratio: 1 / 1
+
+//Add a box shadow to the element
+_box-shadow($a = 1)
+  box-shadow: 0 3px ($a * 1px) ($a * -2px) rgba(100,100,100, .2), 0 2px ($a * 2px) 0 rgba(100,100,100, .14), 0 1px ($a * 5px) 0 rgba(100,100,100, .12)
+
+//Apply CSS transition animation
+_transition()
+  transition: arguments
+  transition-timing-function: cubic-bezier(.7, 0, .3, 1)
+
+//Apply translate3d
+_translate()
+  transform: translate3d(arguments)
+  transition: transform var(--animation-speed, .5s)
+  transition-timing-function: cubic-bezier(.7, 0, .3, 1)
+
+//Generate Color Palette
+//https://stylus-lang.com/docs/bifs.html#range-start-stop-step
+_color-palette($name, $color, $amount=25,)
+  --color-{$name}: $color
+  for i in range($amount, (100 - $amount), $amount)
+    --color-{$name}-{i}: tint($color, (100 - i))
+    --color-{$name}-dark-{i}: shade($color, i)
