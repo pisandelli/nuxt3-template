@@ -23,10 +23,10 @@ export default defineNuxtConfig({
     ],
   },
   alias: {
-    images: fileURLToPath(new URL('./assets/images', import.meta.url)),
-    style: fileURLToPath(new URL('./assets/styles', import.meta.url)),
+    images: fileURLToPath(new URL('./app/assets/images', import.meta.url)),
+    style: fileURLToPath(new URL('./app/assets/styles', import.meta.url)),
     utilities: fileURLToPath(
-      new URL('./assets/styles/utilities', import.meta.url),
+      new URL('./app/assets/styles/utilities', import.meta.url),
     ),
   },
   css: ['@/assets/styles/reset.styl'],
@@ -36,7 +36,7 @@ export default defineNuxtConfig({
         stylus: {
           imports: [
             fileURLToPath(
-              new URL('./assets/styles/abstracts/*.styl', import.meta.url),
+              new URL('./app/assets/styles/abstracts/*.styl', import.meta.url),
             ),
           ],
         },
@@ -95,6 +95,7 @@ export default defineNuxtConfig({
       },
     ],
     [
+      // CHECKLATER: Maybe better using Google font official module
       '@nuxtjs/google-fonts',
       {
         // Add options for Google Fonts
