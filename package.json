@@ -38,7 +38,7 @@
   "devDependencies": {
     "@vue/language-plugin-pug": "^2.1.6",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^9.10.0",
+    "eslint": "^9.11.0",
     "husky": "^9.1.6",
     "nuxt-layout-compositions": "^2.0.2",
     "pug": "^3.0.3",
