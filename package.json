@@ -15,7 +15,7 @@
     "@morev/vue-transitions": "^3.0.2",
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/fonts": "^0.10.0",
-    "@nuxt/icon": "^1.5.1",
+    "@nuxt/icon": "^1.5.6",
     "@nuxt/image": "^1.8.0",
     "@nuxt/kit": "^3.13.2",
     "@nuxt/schema": "^3.13.2",
