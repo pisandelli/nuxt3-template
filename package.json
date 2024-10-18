@@ -25,7 +25,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/html-validator": "^1.8.2",
     "@nuxtjs/robots": "^4.1.7",
-    "@nuxtjs/seo": "^2.0.0-rc.21",
+    "@nuxtjs/seo": "^2.0.0-rc.23",
     "@nuxtjs/web-vitals": "^0.2.7",
     "@pinia/nuxt": "^0.5.4",
     "@vueuse/core": "^11.1.0",
