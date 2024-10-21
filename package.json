@@ -27,7 +27,7 @@
     "@nuxtjs/robots": "^4.1.7",
     "@nuxtjs/seo": "^2.0.0-rc.21",
     "@nuxtjs/web-vitals": "^0.2.7",
-    "@pinia/nuxt": "^0.5.4",
+    "@pinia/nuxt": "^0.5.5",
     "@vueuse/core": "^11.1.0",
     "@vueuse/nuxt": "^11.1.0",
     "dayjs-nuxt": "^2.1.11",
